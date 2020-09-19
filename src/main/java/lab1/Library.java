@@ -7,6 +7,9 @@ public class Library {
     }
     
     public static void main(String args[]) {
-    	System.out.println("When there is a fire, commit and push.");
+    	Library lib = new Library();
+    	if (lib.someLibraryMethod()) {
+        	System.out.println("When there is a fire, commit and push.");    		
+    	}
     }
 }
